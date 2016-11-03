@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722FB40C1DCAB93400EE5648 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722FB40B1DCAB93400EE5648 /* Task.swift */; };
 		72ACE4A71DC9AE790087CC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACE4A61DC9AE790087CC83 /* AppDelegate.swift */; };
 		72ACE4A91DC9AE790087CC83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACE4A81DC9AE790087CC83 /* ViewController.swift */; };
 		72ACE4AC1DC9AE790087CC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ACE4AA1DC9AE790087CC83 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		722FB40B1DCAB93400EE5648 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = DoIt/Task.swift; sourceTree = "<group>"; };
 		72ACE4A31DC9AE790087CC83 /* DoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72ACE4A61DC9AE790087CC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72ACE4A81DC9AE790087CC83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		72ACE49A1DC9AE790087CC83 = {
 			isa = PBXGroup;
 			children = (
+				722FB40B1DCAB93400EE5648 /* Task.swift */,
 				72ACE4A51DC9AE790087CC83 /* DoIt */,
 				72ACE4A41DC9AE790087CC83 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722FB40C1DCAB93400EE5648 /* Task.swift in Sources */,
 				72ACE4AF1DC9AE790087CC83 /* DoIt.xcdatamodeld in Sources */,
 				72ACE4A91DC9AE790087CC83 /* ViewController.swift in Sources */,
 				72ACE4A71DC9AE790087CC83 /* AppDelegate.swift in Sources */,
@@ -306,6 +310,7 @@
 				72ACE4BA1DC9AE790087CC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
